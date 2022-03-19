@@ -3,51 +3,23 @@
 
 section code
 
-.init:
-    mov eax, 0xb800
-    mov es, eax
-    mov eax, 0
-    mov ebx, 0; index of character we are printing
-    mov ecx, 0; actual address of character on the screen
-    mov dl, 0; actual value that we are printing to the screen
-
-    
-.clear:
-    mov byte [es:eax], 0
-    inc eax
-    mov byte [es:eax], 0x70
-    inc eax
-    cmp eax, 2*25*80
-    jl .clear
-
-mov eax, welcome
-mov ecx, 3*2*80
-call .print
-
-
-
-.print:
-    mov dl, byte [eax+ebx]
-    cmp dl, 0
-    je .print_end
-
-    mov byte [es:ecx], dl 
-    inc ebx
-    inc ecx
-    inc ecx
-    jmp .print
-
-.print_end:
-    ret
 
 .switch:
+    mov bx, 0x1000; loding code from hard disk
+    mov ah, 0x02
+    mov al, 30; number of sectors to read from hard disk
+    mov ch, 0x00
+    mov dh, 0x00
+    mov cl, 0x02
+    int 0x13
+
     cli; turn off interrupts
     lgdt [gdt_descriptor]; load the gdt table
     mov eax, cr0
     or eax, 0x1
     mov cr0, eax; make the switch
 
-    jmp protected_start
+    jmp code_seg:protected_start
 
 welcome: db 'Welcome BroOS', 0
 
@@ -62,6 +34,7 @@ protected_start:
 
     mov ebp, 0x90000
     mov esp, ebp
+    call 0x1000
     jmp $
 
 gdt_begin:
