@@ -16,11 +16,21 @@
 <table>
     <tr>
         <td>Character with background color</td>
-        <td>Character with background color</td>
+        <td>clearing screen</td>
     </tr>
     <tr>
         <td><img src="images\l1\1.png" width="380" /></td>
+        <td><img src="images\l1\2.png" width="380" /></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>Character with background color</td>
+        <td>clearing screen</td>
+    </tr>
+    <tr>
         <td><img src="images\l1\1.png" width="380" /></td>
+        <td><img src="images\l1\2.png" width="380" /></td>
     </tr>
 </table>
 <h1>thank you</h1>
