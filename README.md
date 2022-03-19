@@ -16,8 +16,10 @@
 <table>
     <tr>
         <td>Character with background color</td>
+        <td>Character with background color</td>
     </tr>
     <tr>
+        <td><img src="images\l1\1.png" width="380" /></td>
         <td><img src="images\l1\1.png" width="380" /></td>
     </tr>
 </table>
