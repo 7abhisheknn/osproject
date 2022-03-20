@@ -1,5 +1,5 @@
 <h1>OS Project Course</h1>
-<a href="https://github.com/7abhisheknn/osproject">Course Certificate</a>
+<a href="https://www.udemy.com/certificate/UC-5168ac9a-e2bd-483c-b32c-e379bc602b6c/">Course Certificate</a>
 <p>
 
     Hello I am Abhishek N N.
