@@ -23,4 +23,15 @@
         <td><img src="images\l1\2.png" width="380" /></td>
     </tr>
 </table>
+<h2>Level 2: Graphics(controling each pixel)</h2>
+<table>
+    <tr>
+        <td>blank green screen graphics</td>
+        <td>clearing screen</td>
+    </tr>
+    <tr>
+        <td><img src="images\l2\1.png" width="380" /></td>
+        <td><img src="images\l2\2.png" width="380" /></td>
+    </tr>
+</table>
 <h1>thank you</h1>
