@@ -1,5 +1,4 @@
 all: bootloader
-all: bootloader
 
 bootloader:
 	nasm boot/boot.asm -f bin -o boot/bin/boot.bin

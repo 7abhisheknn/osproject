@@ -42,4 +42,15 @@
         <td><img src="images\l2\2.png" width="380" /></td>
     </tr>
 </table>
+<h2>Level 3: mouse and keyboard</h2>
+<table>
+    <tr>
+        <td>mouse</td>
+        <!-- <td>string</td> -->
+    </tr>
+    <tr>
+        <td><img src="images\l3\1.png" width="380" /></td>
+        <!-- <td><img src="images\l2\2.png" width="380" /></td> -->
+    </tr>
+</table>
 <h1>thank you</h1>
