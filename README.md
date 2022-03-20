@@ -1,4 +1,5 @@
 <h1>OS Project Course</h1>
+<a href="https://github.com/7abhisheknn/osproject">Course Certificate</a>
 <p>
 
     Hello I am Abhishek N N.
@@ -9,8 +10,7 @@
 
     I like the way of project based learning, so took this course for the subject.
 
-</p>
-
+</p>=
 
 <h2>Level 1:Startup: Basics (with text)</h2>
 <table>
@@ -89,7 +89,7 @@
 <table>
     <tr>
         <td>Task bar to open multiple programs</td>
-        <td>sample user program</td>
+        <td>sample user program(bouncing ball)</td>
     </tr>
     <tr>
         <td><img src="images\l6\1.png" width="380" /></td>
