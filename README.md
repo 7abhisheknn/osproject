@@ -35,11 +35,21 @@
 <table>
     <tr>
         <td>blank green screen graphics</td>
-        <td>clearing screen</td>
+        <td>letters</td>
     </tr>
     <tr>
         <td><img src="images\l2\1.png" width="380" /></td>
         <td><img src="images\l2\2.png" width="380" /></td>
     </tr>
 </table>
+<!-- <table>
+    <tr>
+        <td>blank green screen graphics</td>
+        <td>clearing screen</td>
+    </tr>
+    <tr>
+        <td><img src="images\l2\1.png" width="380" /></td>
+        <td><img src="images\l2\2.png" width="380" /></td>
+    </tr>
+</table> -->
 <h1>thank you</h1>
