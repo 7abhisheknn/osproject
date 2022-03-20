@@ -12,7 +12,7 @@
 </p>
 
 
-<h2>Level 1: Basics</h2>
+<h2>Level 1: Basics (with text)</h2>
 <table>
     <tr>
         <td>Character with background color</td>
@@ -21,6 +21,14 @@
     <tr>
         <td><img src="images\l1\1.png" width="380" /></td>
         <td><img src="images\l1\2.png" width="380" /></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>String output</td>
+    </tr>
+    <tr>
+        <td><img src="images\l1\3.png" width="380" /></td>
     </tr>
 </table>
 <h2>Level 2: Graphics(controling each pixel)</h2>
